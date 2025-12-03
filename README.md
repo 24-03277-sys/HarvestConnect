@@ -27,6 +27,7 @@ This improves reliability and prevents invalid states (e.g., negative quantity).
 Program Structure - Below is an explanation of the major classes and their roles.
 
 How to Run the Program
+
 Below are the step-by-step instructions.
 1st: Save the Source Code
 Open a plain text editor (like Notepad, VS Code, Sublime Text, etc.).
@@ -49,6 +50,7 @@ The program will start, and you should see the "HARVESTCONNECT SYSTEM" menu in y
 You can now interact with the program by entering choices (1-5) as prompted.
 
 Sample Output: 
+
 The program output starts: 
 ══════════════════════════════════════════════ 🍎 HARVESTCONNECT SYSTEM ══════════════════════════════════════════════
 1 ➤ Add Food Donation 
