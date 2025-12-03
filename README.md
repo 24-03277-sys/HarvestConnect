@@ -175,9 +175,15 @@ Text-Based Class Diagram
                             |
           -------------------------------------------------
           |                      |                       |
+          
 +----------------+   +---------------------+   +--------------------+
+
 | PerishableItem |   |   BakedGoodItem     |   |    PantryItem      |
+
 +----------------+   +---------------------+   +--------------------+
+
 | Overrides getType| | Overrides getType    | | Overrides getType    |
+
 |                  | |                      | | Overrides expiration  |
+
 +------------------+ +----------------------+ +-----------------------+
