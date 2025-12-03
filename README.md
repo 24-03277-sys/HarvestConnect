@@ -5,6 +5,7 @@ Project Title:
 Harvest connect
 
 Description / Overview:
+
 HarvestConnect is a simple food donation management system that helps organizations track and distribute donated food. The system allows users to add different types of food items, store them in an inventory, match donations to recipients, and generate basic reports. It also checks expiration dates so that perishable food can be prioritized. Overall, it helps reduce food waste and makes food distribution easier and more organized.
 
 OOP Concepts Applied:
