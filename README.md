@@ -191,22 +191,29 @@ Text-Based Class Diagram
 REFERENCES 
 
 Books / Official
+
 	1.	Schildt, H. (2018). Java: The Complete Reference. McGraw-Hill Education.
 https://www.mhprofessional.com/9781260440225-usa-java-the-complete-reference-9th-edition-group
+	
 	2.	Oracle. (2024). Java Documentation.
 https://docs.oracle.com/javase/
 
 Online Programming Resources
+	
 	3.	GeeksforGeeks. “Java OOPs Concepts.”
 https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/
+	
 	4.	TutorialsPoint. “Java – Object-Oriented Programming.”
 https://www.tutorialspoint.com/java/java_object_oriented.htm
+	
 	5.	StackOverflow. Java Questions and Discussions.
 https://stackoverflow.com/questions/tagged/java
 
 Project Concept / Inspiration
+	
 	6.	United Nations. “Zero Hunger – SDG 2.”
 https://www.un.org/sustainabledevelopment/hunger/
+	
 	7.	Food and Agriculture Organization (FAO). “Food Waste and Food Donation.”
 https://www.fao.org/food-loss-and-food-waste/en/
 McGraw Hill Higher Education
@@ -217,6 +224,7 @@ Acknowledgement
 We would like to express our sincere thanks to everyone who supported us in completing the HarvestConnect – Food Donation System project.
 
 Team Members:
+
 	•	Albañez, James Benedict H.
 	•	Managbanag, Dren Allen
 	•	Faral, Aaron Cristopher
