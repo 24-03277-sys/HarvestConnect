@@ -151,7 +151,6 @@ Overrides expiration calculation to return a fixed long shelf life (999 days).
 
 Text-Based Class Diagram
 
-
                +----------------------+
                 |     ITrackable       |
                 +----------------------+
