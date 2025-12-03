@@ -29,21 +29,30 @@ Program Structure - Below is an explanation of the major classes and their roles
 How to Run the Program
 
 Below are the step-by-step instructions.
+
 1st: Save the Source Code
+
 Open a plain text editor (like Notepad, VS Code, Sublime Text, etc.).
 Copy and paste the entire code you provided into the editor.
 Save the file as HarvestConnect.java.
+
 2nd: Compile the Program
+
 Open your Command Prompt (Windows) or Terminal (macOS/Linux).
 Navigate to the directory where you saved HarvestConnect.java using the cd (change directory) command.
 Example: cd C:\Users\YourName\Documents\JavaProjects
+
 Execute the following command to compile the source code:
+
 javac HarvestConnect.java
 If the compilation is successful a file named HarvestConnect.class will be created in the same directory. This is the bytecode that the Java Virtual Machine (JVM) executes.
 If there are errors javac will display them. You'll need to fix the errors in your .java file and re-compile.
+
 3rd: Run the Program
+
 Once compiled you will use the Java runtime to execute the main class.
 While still in the same directory in your Command Prompt/Terminal, execute the following command:
+
 Bash
 java HarvestConnect
 The program will start, and you should see the "HARVESTCONNECT SYSTEM" menu in your terminal.
@@ -143,6 +152,8 @@ Overrides expiration calculation to return a fixed long shelf life (999 days).
 
 
 Text-Based Class Diagram
+
+
                +----------------------+
                 |     ITrackable       |
                 +----------------------+
