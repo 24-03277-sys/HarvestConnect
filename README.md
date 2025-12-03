@@ -46,12 +46,8 @@ The program will start, and you should see the "HARVESTCONNECT SYSTEM" menu in y
 You can now interact with the program by entering choices (1-5) as prompted.
 
 Sample Output: 
-# 1. You compile the program: 
-          javac HarvestConnect.java 
-# 2. You run the program: 
-          java HarvestConnect 
-# 3. The program output starts: ══════════════════════════════════════════════ 
-🍎 HARVESTCONNECT SYSTEM ══════════════════════════════════════════════
+The program output starts: 
+══════════════════════════════════════════════ 🍎 HARVESTCONNECT SYSTEM ══════════════════════════════════════════════
 1 ➤ Add Food Donation 
 2 ➤ View Inventory
 3 ➤ Match Donation to Recipient 
