@@ -28,8 +28,6 @@ Program Structure - Below is an explanation of the major classes and their roles
 
 How to Run the Program
 
-Below are the step-by-step instructions.
-
 1st: Save the Source Code
 
 Open a plain text editor (like Notepad, VS Code, Sublime Text, etc.).
