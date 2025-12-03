@@ -52,59 +52,95 @@ You can now interact with the program by entering choices (1-5) as prompted.
 Sample Output: 
 
 The program output starts: 
-══════════════════════════════════════════════ 🍎 HARVESTCONNECT SYSTEM ══════════════════════════════════════════════
+
+🍎 HARVESTCONNECT SYSTEM
+
 1 ➤ Add Food Donation 
+
 2 ➤ View Inventory
+
 3 ➤ Match Donation to Recipient 
+
 4 ➤ Generate Report 
+
 5 ➤ Exit Program
+
  ══════════════════════════════════════════════ 
+ 
 Enter choice (1-5): 1 
 
 Select Food Type: 
+
 1. Perishable 
+
 2. Baked Good 
+
 3. Pantry Item 
+
 Choice: 3 
+
 Enter name: Canned Beans 
+
 Enter quantity: 50 
+
 Enter expiration date (YYYY-MM-DD): 2026-10-01 
+
 Inbound: 50 units of Canned Beans 
+
 ✔ Donation added!
 
 📌 Main Class: HarvestConnect
+
 Role:
+
 Serves as the central controller of the entire program.
 Manages UI menus, user input, inventory list, and system flow.
+
 Key Responsibilities:
+
 Display menu
 Add donations
 View inventory
 Match donations to recipients
 Generate reports
+
 Interface: ITrackable
+
 Role:
+
 Ensures all items in the system can log inbound (donated) or outbound (distributed) movements.
+
 Methods:
+
 logInbound()
 logOutbound()
+
 Abstract Class: FoodItem
+
 Role:
+
 Parent class for all food types.
+
 Contains:
+
 Shared attributes (name, quantity, expirationDate)
 Methods for expiration calculation
 Logging method implementations
 Abstract method getType() (implemented by subclasses)
+
 Subclasses:
+
 1. PerishableItem
 Represents food that spoils quickly.
 Inherits expiration calculation from FoodItem.
+
 2. BakedGoodItem
 Represents bakery items like bread, cakes, etc.
+
 3. PantryItem
 Shelf-stable goods.
 Overrides expiration calculation to return a fixed long shelf life (999 days).
+
 
 Text-Based Class Diagram
                +----------------------+
