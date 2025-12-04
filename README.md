@@ -12,18 +12,22 @@ OOP Concepts Applied:
 
 Encapsulation - The program hides internal data inside classes and exposes only necessary methods.
 Attributes such as name, quantity, and expirationDate inside FoodItem are protected, restricting direct modification.
-Methods like reduceQuantity(), getName(), and calculateDaysUntilExpiration() safely access and modify these values.
+Methods like reduceQuantity(), getName(), and calculateDaysUntilExpiration() safely access and modify these values. 
+
 Inheritance - The project uses inheritance to avoid repetitive code:
 FoodItem is an abstract superclass containing shared fields and methods.
 Subclasses PerishableItem, BakedGoodItem, and PantryItem extend FoodItem, inheriting its behavior while adding specialization.
+
 Polymorphism - The program uses polymorphism to treat different item types as FoodItem objects:
 ArrayList<FoodItem> can store any subclass instance.
 The getType() method is overridden differently in each subclass.
 calculateDaysUntilExpiration() is customized in PantryItem to return 999 days.
+
 Abstraction - The abstract class FoodItem provides a blueprint with abstract method getType() and shared logic such as expiration calculation.
 The ITrackable interface abstracts logging functionality, ensuring all food item types implement logInbound() and logOutbound().
 Exception Handling (Custom Exception) - A custom exception, InvalidQuantityException, ensures input validation when adding donations.
 This improves reliability and prevents invalid states (e.g., negative quantity).
+
 Program Structure - Below is an explanation of the major classes and their roles.
 
 How to Run the Program
